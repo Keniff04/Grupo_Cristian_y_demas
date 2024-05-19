@@ -1,0 +1,166 @@
+{
+  "inicio": {
+    "descripcion": "El jugador recibe un mensaje inicial con un patrón oculto que le ayudará a descubrir la palabra clave para la siguiente prueba.",
+    "mensaje_inicial": "TechCorp ha sufrido un ciberataque y se necesitan tus habilidades para investigar. Entre los empleados de la empresa, puede haber posibles sospechosos. Revisa los registros de actividad reciente y busca patrones en los nombres de los trabajadores para encontrar el código para la siguiente etapa.",
+    "pista": "Consulta los nombres que aparecen en el mensaje para descubrir el patrón.",
+    "nombres": [
+      "Toby",
+      "Eric",
+      "Cassandra",
+      "Hannah",
+      "Carlos",
+      "Oliver",
+      "Riley",
+      "Paula"
+    ]
+  },
+    "TechCorp": {
+      "descripcion": "El jugador busca el documento perdido que contiene información relevante para el caso. El informe forense detalla el ciberataque, incluidos el momento, el día de la semana, el departamento afectado y un mensaje cifrado que contiene la pista para el siguiente paso.",
+    "informe_forense": {
+      "dia_de_la_semana": "Jueves",
+      "hora_del_hackeo": "15:30",
+      "departamento_infectado": "Recursos Humanos",
+      "mensaje_cifrado": "Mira entre la X y la B"
+    }
+  },
+  "curriculumvitae": {
+    "descripcion": "Para seguir con la prueba la siguiente contraseña es muy complicada, así que para no olvidar la contraseña se encuentra apuntada en un Bloc de Notas que lo guardan entre dos carpetas azules",
+    "habitacion": {
+      "objetos": "carpetalibrosusadoscartelpizarramagneticabolicarpeterablocdenotaslatadeatuntelevisorperiodicodeldiaanteriormesademaderasilladeplasticopercheroguardarropaarmariozapateroportapapelesgrapadorallavesproyectorportatilcarpetalibrosusadoscartelpizarramagneticabolicarpeterablocdenotaslatadeatuntelevisorperiodicodeldiaanteriormesademaderasilladeplasticopercheroguardarropaarmariozapateroportapapelesgrapadorallavesproyectorportatilcarpetalibrosusadoscartelpizarramagneticabolicarpeterablocdenotaslatadeatuntelevisorperiodicodeldiaanteriormesademaderasilladeplasticopercheroguardarropaarmariozapateroportapapelesgrapadorallavesproyectorportatilcarpetalibrosusadoscartelpizarramagneticabolicarpeterablocdenotaslatadeatuntelevisorperiodicodeldiaanteriormesademaderasilladeplasticopercheroguardarropaarmariozapateroportapapelesgrapadorallavesproyectorportatilcarpetalibrosusadoscartelpizarramagneticabolicarpeterablocdenotaslatadeatuntelevisorperiodicodeldiaanteriormesademaderasilladeplasticopercheroguardarropaarmariozapateroportapapelesgrapadorallavesproyectorportatilcarpetaazul541284sdr34354carpetaazulportatilcarpetalibrosusadoscartelpizarramagneticabolicarpeterablocdenotaslatadeatuntelevisorperiodicodeldiaanteriormesademaderasilladeplasticopercheroguardarropaarmariozapateroportapapelesgrapadorallavesproyectorportatil"
+    }
+  },
+  "5r3435441284sd": {
+    "descripcion": "El jugador proporciona una contraseña al servidor. En respuesta, el servidor genera un cuadrado de estrellas basado en la longitud de la contraseña",
+    "sopa_de_letras": [
+      ["S", "O", "P", "A", "E", "L", "E", "T", "R", "A", "S", "A"],
+      ["O", "R", "O", "A", "C", "I", "A", "H", "S", "E", "P", "A"],
+      ["S", "E", "R", "V", "I", "D", "O", "R", "A", "S", "S", "A"],
+      ["A", "B", "U", "R", "R", "I", "D", "A", "P", "L", "U", "A"],
+      ["R", "I", "A", "D", "E", "S", "A", "F", "I", "O", "E", "R"],
+      
+    ]
+  },
+    "SERVIDOR": {
+    "descripcion": "Estas dentro del dispositivo y encontraste un apartado de ficheros, entre ellos hay uno que contiene un archivo de importante relevancia, pero hay fichero que intervienen para acceder.",
+    "pista": "Borra todos los ficheros que que contengan algo en común y el sobrante es el correcto",
+    "dispositivo": {
+      "carpetas": [
+        "sdsd1",
+        "Arbrt",
+        "334e321",
+        "LOP",
+        "wert",
+        "ta",
+        "Agentes",
+        "KK",
+        "rfwb57",
+        "2456353",
+        "375z362",
+        "q45q4gq4",
+        "q45gq4g",
+        "cagallo",
+        "Argentina",
+        "eargrth",
+        "rwtbrwh",
+        "erbrwthb4",
+        "5qtq4gr",
+        "q34gtq4rg",
+        "3t4fgqr4g4",
+        "q45gh4g",
+        "rq4q5gq4g",
+        "q45fgds4g4",
+        "q45tgq4g",
+        "q45gq4g4"
+      ]
+    }
+  },
+ 
+   
+    "2456353": {
+    "descripcion": "Has logrado acceder a la carpeta correcta donde se encuentran datos cruciales para la investigación. Ahora, tu siguiente desafío es identificar una red de comunicación secreta utilizada por el espía pero estas están cifradas.",
+    "pista": "Cesar 3",
+    "mensaje_1": "uhg-whfkurs",
+    "mensaje_2": "uhg-hvsld"
+  },
+ 
+  "red-espia": {
+    "descripcion": "Analiza los mensajes para descubrir más información sobre el espía. Uno de los mensajes contiene una pista crucial.",
+    "mensajes_interceptados": [
+      {
+        "id": "mensaje_1",
+        "contenido": "Ya he infectado a la empresa. J.P"
+      },
+      {
+        "id": "mensaje_2",
+        "contenido": "Si me pillan se me cae el pelo."
+      },
+      {
+        "id": "mensaje_3",
+        "contenido": " Debía haber eliminado mis datos de la lista_empleados."
+      }
+    ]
+  },
+
+
+  "lista_empleados": {
+  "descripcion": "Analiza la lista de empleados que creemos que son los sospechosos",
+  "lista_sospechosos": [
+   
+      {
+      "id": "Juan_Perez",
+      "sospechoso": false
+      },
+      {
+      "id": "Marc_Bel",
+      "sospechoso": false
+      },
+      {
+      "id": "Cristian_Martinez",
+      "sospechoso": false
+      },
+      {
+      "id": "Abdel_abderrahim",
+      "sospechoso": false
+     },
+     {
+      "id": "Adam_Reggani",
+      "sospechoso": false
+      },
+      {
+      "id": "Joel_Carrasco",
+      "sospechoso": false
+      }
+    ]
+  }
+}
+
+
+  "Juan Perez": {
+  "descripcio": "Has obtenido suficiente información del interrogatorio de Juan Perez. Usa estas pistas para determinar su culpabilidad o inocencia y procede a la siguiente prueba.",
+  "pistas": [
+    {
+      "tipo": "coartada",
+      "contenido": "Juan afirma que estaba en casa viendo televisión."
+    },
+    {
+      "tipo": "testimonio",
+      "contenido": "Menciona no haber visto ni escuchado nada inusual."
+    },
+    {
+      "tipo": "comportamiento",
+      "contenido": "Se mostró nervioso al mencionar su coartada."
+    },
+    {
+      "tipo": "contradicción",
+      "contenido": "El vecino afirma haberlo visto salir de su casa esa noche."
+    },
+    {
+      "tipo": "objeto",
+      "contenido": "Se encontró un boleto de cine en su bolsillo de esa noche. El código en el boleto es 'CULPABLE'."
+    },
+    {
+      "tipo": "alibi_confirmation",
+      "contenido": "La programación de televisión no coincide con lo que Juan describió."
+    }
+  ]
+},
